@@ -6,7 +6,7 @@ var bio = {
     email: "jake@example.me",
     github: "supergeekjake",
     twitter: "@supergeekjake",
-    location: "Santa Cruz, CA"
+    location: "Soquel, CA"
   },
   welcomeMessage: "I'm a tech-loving Web Developer from Santa Cruz dreaming big things!",
   skills: [
@@ -161,3 +161,4 @@ bio.display();
 work.display();
 projects.display();
 education.display();
+jQuery('#mapDiv').append(googleMap);
